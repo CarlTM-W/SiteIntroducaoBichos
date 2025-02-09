@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Automação Industrial</title>
+    <link rel="icon" href="aut.png" type="x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            background-image: url('ImagemAutomacao.webp');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: #00ff88;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: #2d2d2d;
+            width: 1500px;
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid #00ff88;
+            transition: transform 0.3s;
+            margin: 0 auto; 
+            font-size: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #00ff88;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background: #00ff88;
+            color: #1a1a1a;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            margin-top: 2rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .titulo {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .conteudo {
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div style="background-color: black; width: 1000px; height: 200px; border-radius: 20px; opacity: 0.7;">
+            <h1>Conheça o curso de Automação Industrial</h1>
+            <p style="font-size: 20px;">Bem vindo ao melhor e mais completo curso do Colégio Técnico Industrial de Guaratinguetá !</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="course-info">
+            <div class="card">
+                <h2 class="titulo">O que é?</h2>
+                <p><strong>Se liga!</strong> O curso de Automação Industrial do CTIG-UNESP é para quem curte a vibe da tecnologia e quer aprender a mandar ver nos <strong>sistemas automatizados</strong>. Você vai se amarrar em <strong>CLPs</strong>, <strong>sensores</strong>, <strong>robótica</strong>, <strong>SCADA</strong> e <strong>redes industriais</strong>, tudo pra deixar os processos industriais mais rápidos, mais eficientes e, claro, mais sinistros. 
+                    <br><br>
+                    O rolê não para por aí. Se você quiser trabalhar em setores como <strong>indústria petroquímica</strong>, <strong>alimentícia</strong> ou até na <strong>automotiva</strong>, o curso te dá a base pra cair de cabeça nesse mundão. E mais, você vai entender tudo sobre <strong>segurança no trabalho</strong>, <strong>sustentabilidade</strong> e, claro, vai aprender a se conectar com as galeras de <strong>eletrônica</strong>, <strong>informática</strong> e <strong>mecânica</strong>.
+                    <br><br>
+                    O grande truque aqui é aprender a aprender, porque as tecnologias mudam o tempo todo. Aqui, você vai estar preparado pra se atualizar rápido, seja em <strong>hardware</strong>, <strong>software</strong> ou em novas <strong>linguagens de programação</strong>. Se o seu lance é um futuro de sucesso na indústria, esse é o seu caminho! 🚀</p>
+            </div>
+            
+            <div class="card">
+                <h2 class="titulo">Conteúdo</h2>
+                <h2 class="conteudo">Programação de CLPs</h2>
+                <p>Imagina que você tá jogando um jogo de estratégia onde você tem que controlar várias máquinas ao mesmo tempo. Isso é o que você vai fazer com os CLPs (Controladores Lógicos Programáveis). São tipo os "cérebro" das indústrias, que recebem comandos e fazem as máquinas funcionarem certinho. No curso, você aprende a programar esses "cérebros", deixando tudo rodando suave e automático.</p>
+                <h2 class="conteudo">Robótica Industrial</h2>
+                <p>Sabe aqueles robôs que você vê em filmes e que fazem tudo sozinhos? Aqui no CTIG, você vai aprender como esses robôs funcionam de verdade nas fábricas, como se comunicar com eles e até montar e programar robôs que fazem todo o trampo pesado, tipo soldar, montar peças e até pintar!</p>
+                <h2 class="conteudo">Sistemas SCADA</h2>
+                <p>SCADA é tipo o "supervisor" da fábrica. Ele monitora tudo, desde as máquinas até os processos, te mostrando tudo em tempo real em uma tela de computador. No curso, você vai aprender a configurar e operar esses sistemas, pra conseguir ver tudo de uma vez e tomar as melhores decisões sobre a produção.</p>
+                <h2 class="conteudo">Instrumentação Industrial</h2>
+                <p>É a parte que cuida de medir e controlar as variáveis importantes, tipo pressão, temperatura, e vazão. No CTIG, você vai aprender a usar e configurar os sensores e instrumentos que ajudam a garantir que tudo na fábrica esteja funcionando dentro dos padrões e que não tenha nada errado com a produção.</p>
+                <h2 class="conteudo">Redes Industriais</h2>
+                <p>Na indústria, as máquinas, sensores e sistemas precisam se comunicar. E é aí que entram as redes industriais. Você vai aprender como conectar tudo isso de forma eficiente, garantindo que os dados e comandos passem de um ponto a outro sem falhar, mantendo a produção rolando de maneira sincronizada.</p>
+                <h2 class="conteudo">Programação de torno CNC</h2>
+                <p>Programação de torno CNC é tipo ensinar uma máquina a fazer cortes, furos e roscas em peças de metal (ou outros materiais) de forma precisa e automática. Ao invés de usar ferramentas manuais, você escreve um código (G-code) que diz exatamente onde a máquina deve cortar, a velocidade e qual ferramenta usar. Basicamente, é controlar a máquina pra fazer as paradas de forma rápida e certinha!</p>
+            </div>
+            
+            <div class="card">
+                <h2 class="titulo">Extensão</h2>
+                <p>O curso apresenta diversos tipos de aulas, imersivas e pertinentes, que farão você absorver todo o conteúdo proposto, como:</p>
+                <br>
+                <ul>
+                    <li><strong>Aulas teóricas</strong> que vão te dar aquele conhecimento firme, aquele básico bem sólido pra você ter base e sair arrasando nas outras fases.</li>
+                    <li><strong>Laboratórios práticos</strong> onde você vai meter a mão na massa e aprender de verdade, sem essa de só teoria, aqui o bagulho é aprender fazendo!</li>
+                    <li><strong>Projetos reais</strong> que são tipo aquele treino pra vida real, você vai estar afiado e pronto pra resolver qualquer rolê que surgir, como se já estivesse no mercado de trabalho!</li>
+                </ul>
+            </div>
+        </div>
+
+        <center>
+            <button onclick="showContact()">Converse conosco</button>
+        </center>
+    </div>
+
+    <script>
+        function showContact() {
+            window.location.href = "https://www.instagram.com/int.aut/";
+        }
+    </script>
+</body>
+</html>
